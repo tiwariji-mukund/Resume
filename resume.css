@@ -1,0 +1,343 @@
+body{
+	margin: 0px;
+}
+
+/* header */
+
+#body-header{
+/*	background-image: url(../media/macbook.jpg);*/
+	background-image: url(https://ninjasfiles.s3.amazonaws.com/asset_0000000000000020_1549743985_macbook_mouse.jpg);
+	height: 80vh;
+/*	opacity: 0.78;*/
+	opacity: 0.7;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+/* horizontal links */
+
+.horizontal-links{
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+	font-size: 20px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.horizontal-links li{
+	display: inline-block;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 20px;
+	margin: 10px 8px 0px 8px;
+}
+
+.horizontal-links li a{
+	text-decoration: none;
+	display: inline;
+	color: white;
+	font-size: 25px;
+	font-style: bold;
+	transition: color 0.5s, border-bottom 4s;
+}
+
+.horizontal-links li a:hover{
+	color: lightgrey;
+	border-bottom: 2px solid lightgrey;
+
+}
+
+/* social icons and name */
+
+.social-icons{
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+	font-size: 20px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.social-icons li{
+	display: inline-flex;
+	text-decoration: none;
+	text-transform: uppercase;
+	margin: 15px 8px 0px 8px;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.social-icons li a i{
+	margin-top: 10px;
+	font-size: 2.5rem;
+	color: white;
+	letter-spacing: 1.6rem;
+	line-height: 2rem;
+}
+
+.social-icons li a i:hover{
+	color: darkgrey;
+}
+
+
+#name{
+	font-size: 5rem;
+	text-align: center;
+	color: white;
+	margin: 8rem 0rem 0.5rem;
+	letter-spacing: 0.2rem;
+	font-weight: 700;
+}
+
+/* about section  */
+
+#about{
+	height: auto;
+	width: 100%;
+	position: relative;
+}
+
+#profile-pic{
+	height: 12rem;
+	width: 12rem;
+	margin: auto;
+	margin-top: -14vh;
+}
+
+#profile-pic img{
+	height: 100%;
+	width: 100%;
+	border: 5px solid white;
+	border-radius: 50%;
+	box-shadow: 0px 1px 50px 2px lightgrey;
+}
+
+#para {
+    padding: 10px;
+    width: 70%;
+    height: 100%;
+    margin: 4rem 15rem 6rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    color: grey;
+    line-height: 28px;
+    font-weight: 100;
+    font-size: 1.5rem;
+    letter-spacing: 0.2rem;
+}
+
+
+section{
+	height: 70vh;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+section:nth-child(2n){
+	background-color: whitesmoke;
+}
+
+section:nth-child(odd){
+	background-color: #e1e1e1;
+}
+
+.heading{
+	text-transform: uppercase;
+	color: blue;
+	display: flex;
+	justify-content: center;
+	margin: 1.5rem auto;
+}
+
+.section-name{
+	font-size: 2.3rem;
+	letter-spacing: 0.12rem;
+	font-weight: 550;
+}
+
+.icons{
+	font-size: 2.3rem;
+	margin-right: 1.5rem;
+}
+
+/* Common Margin Classes */
+.mb75px {
+    margin-bottom: 75px;
+}
+
+/*common color classes */
+
+.color {
+    color: #2857a4;
+    font-weight: 600;
+
+}
+
+.mb-blue {
+    background-color: #2857a4;    
+}
+
+.mb-orange {
+    background-color: #e27c13;
+    
+}
+
+.mb-green {
+    background-color: #0a8285;
+    
+}
+
+.mb-maroon {
+    background-color: #956b8c;
+    
+}
+
+/* Skills Section */
+
+#skills{
+	height: auto;
+}
+
+section>.skill-section{
+	margin: 0rem 15rem 4rem;
+}
+
+.skill-section{
+	width: 70%;
+	height: inherit;
+	margin: 0rem 10rem;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.skill-display{
+	height: 2rem;
+	width: 10rem;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-between;	
+    background-color: #bdbdbd;
+    align-items: center;
+    border-radius: 0.8rem;
+    margin: 2.2rem 2.6rem;
+    border-color: black;
+}
+
+.skill-display>div{
+	border-radius: 20px 0px 0px 20px;
+}
+
+.skill-name{
+	margin: 6px 0px;
+}
+
+.skill-name span{
+	font-size: 1.1rem;
+	color: white;
+	text-transform: capitalize;
+	margin-left: 10px;
+	margin-top: -10px;
+}
+
+
+/* Portfolio Section*/
+
+#portfolio{
+	height: auto;
+}
+
+section>.portfolio-section{
+	margin-bottom: 4rem;
+}
+
+.portfolio-section{
+	width: 100%;
+	height: inherit;
+	margin: 0px auto 6px;
+	padding: auto;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+
+#portfolio-display{
+	padding: 2rem;
+	margin: 0rem auto;
+}
+
+.image{
+	position: relative;
+	margin: 0rem auto;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.image img{
+	display: flex;
+	flex: wrap;
+	justify-content: space-around;
+	align-items: center;
+	height: 200px;
+	width: 250px;
+	margin: -2rem 2.2rem 1rem;
+	image-orientation: flip;
+}
+
+.display{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0, 0, 0, 0.4);
+	overflow: hidden;
+	width: 100%;
+	height: 0;
+	transition: 0.5s ease;
+}
+
+.image:hover .display{
+	height: 100%;
+	border: 2px solid cyan;
+	border-radius: 20px;
+}
+
+.display>p{
+	color: white;
+	font-size: 20px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+/*Percentage Classes */
+
+.eighty-five {
+    width: 85%;
+    height: inherit;
+    
+}
+
+.forty {
+    width: 40%;
+    height: inherit;
+}
+
+.eighty {
+    width: 80%;
+    height: inherit;
+}
+
+.fifty-five{
+	width: 55%;
+	height: inherit;
+}
